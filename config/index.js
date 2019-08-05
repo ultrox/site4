@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: 'Minimal Blog', // Navigation and Site Title
   siteTitleAlt: 'Minimal Blog - Gatsby Starter', // Alternative Site title for SEO
   siteTitleManifest: 'MinimalBlog',
-  siteUrl: 'https://minimal-blog.lekoarts.de', // Domain of your site. No trailing slash!
+  siteUrl: 'https://mavu.me', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteHeadline: 'Writing and publishing content', // Headline for schema.org JSONLD
   siteBanner: '/social/banner.jpg', // Your image for og:image tag. You can find it in the /static folder
@@ -17,7 +17,8 @@ module.exports = {
   userTwitter: '@minimal', // Twitter Username - Optional
   ogSiteName: 'minimal', // Facebook Site Name - Optional
   ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: 'UA-47519312-6',
+  googleAnalyticsID: '',
+  googleTM: 'GTM-NHDJNDJ'',
 
   // Manifest and Progress color
   // See: https://developers.google.com/web/fundamentals/web-app-manifest/
