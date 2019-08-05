@@ -18,7 +18,7 @@ module.exports = {
   ogSiteName: 'minimal', // Facebook Site Name - Optional
   ogLanguage: 'en_US', // Facebook Language
   googleAnalyticsID: '',
-  googleTM: 'GTM-NHDJNDJ'',
+  googleTM: 'GTM-NHDJNDJ',
 
   // Manifest and Progress color
   // See: https://developers.google.com/web/fundamentals/web-app-manifest/

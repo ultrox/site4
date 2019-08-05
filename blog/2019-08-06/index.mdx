@@ -1,31 +1,43 @@
 ---
 date: "2019-08-06"
-title: "Micro TIP #1: Force using ZZ to exit vim"
+title: "Micro TIP #1: Force"
 categories:
   - Micro Tips
   - Hacking Habits
 ---
 
 
-`TLDR: cmap wq :echo "USE ZZ" <CR>`
+**TLDR:**
 
-Only people who doesn't know how to use ":wq" are still in vim, so this micro tip is for those who finally did it!
+```vim
+cmap wq :echo "USE ZZ" <CR>
+```
 
-I really like using `ZZ` to save and close vim, but I'm so used to using :wq
-and :q! Its super hard to force myself changing this habit. To alleviate this,
-and force myself using (for me more elegant solution `ZZ/ZQ`) I remapped my vimrc
-to look like this: 
+Even though this is `vim` related, this is teachable moment for the rest of us
+looking for changing our behaviour. 
 
-![](micro11.png)
+> When you remove the choice, or make it stupid hard/easy, one will predictably do more continent action. 
 
-`cmap wq :echo "USE ZZ" <CR>`
+I really like using `ZZ` to save and close vim, but I'm so used to using `:wq`
+and `:q!`. Its super hard to force myself to change this habit, as I don't even think about it, hence the habit. 
+
+To alleviate this, and remove the choice I made it hard to use, actually
+impossible, after couple of times trying to close the file with `:wq` I quickly
+learned new keyboard shortcut, much more elegant `ZZ` to close & save the file.
+
+This is how it looks like. 
+
+```vim
+" Force uzing ZZ and ZQ
+cmap wq :echo "USE ZZ" <CR>
+```
 
 ### Motivation behind it?
 
-I usually do this action with my left hand(shift included), which force me
-Ito use my left pinky a lot (1 + 2 x in a row is a lot in my book), and I
-I don't find this particularly enjoyable, especially if this is something I
-I use multiple times per day if you anything like me and closing/opening vim a
-lot `:q!` You will love this tip
+I usually do this action with my left hand(shift included), which force me to  
+use my left pinky a lot, my left pinky, mind you is very clumsy so I very often
+make typo in very critical moment, super irritating.
+
+I fixed it now, hope you all like it.
 
 ZZ
