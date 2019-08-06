@@ -8,6 +8,13 @@ module.exports = {
     siteUrl: config.siteUrl + pathPrefix,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: config.googleTM,
+        includeInDevelopment: false,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
@@ -16,12 +23,6 @@ module.exports = {
       options: {
         name: 'post',
         path: `${__dirname}/blog`,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: config.googleAnalyticsID,
       },
     },
     {
