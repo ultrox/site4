@@ -1,0 +1,7 @@
+  extends:
+    - mavu
+    - mavu/react
+  plugins: 
+    - react-hooks
+  rules:
+    # your overrides

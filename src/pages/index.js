@@ -50,7 +50,7 @@ const IndexPage = ({
     <Wrapper>
       <Hero>
         <h1>Hi.</h1>
-        <p>Marko here, I'm researching and building <a href="#">tools</a> for people struggling with consistency. I am too one of those people.</p>
+        <p>Marko here, I'm researching and building <a href="https://headjack.me">tools</a> for people struggling with consistency. I am too one of those people.</p>
         <Link to="/contact">
           <Button big>
             <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
